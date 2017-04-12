@@ -1,0 +1,9 @@
+.modal-content {
+  text-align: center;
+  font-size: 16px;
+}
+
+#save-button {
+  margin: 0 auto;
+  text-align: center;
+}

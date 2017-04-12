@@ -1,0 +1,14 @@
+<ul class="savedArticles">
+	{{#each savedArticles}}
+		<ul class="articleTitle">{{title}}</ul> 
+		<a href="{{link}}"><ul class="articleLink">{{link}}</ul> </a>
+		{{!-- create a form with a submit button--}}
+		<form action ="/" ethod="post" class="comment-form">
+		<div class="form-group">
+		          <label for="article_comment" class="article_comment"></label>
+		          <input type="text" id="article_comment" name="article_comment" class="form-control">
+		     </div>
+			<button type="submit" class="create-button btn btn-sm btn-primary text-center" id="submit"> Comment </button>
+			</form>
+	{{/each}}
+</ul>
