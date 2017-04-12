@@ -1,0 +1,31 @@
+{
+  "name": "Mongoose-News",
+  "version": "1.0.0",
+  "description": "In this assignment, you'll create a web app that lets users leave comments on the latest news. But you're not going to actually write any articles; instead, you'll flex your Mongoose and Cheerio muscles to scrape news from another site.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aagreda/Mongoose-News.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aagreda/Mongoose-News/issues"
+  },
+  "homepage": "https://github.com/aagreda/Mongoose-News#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cheerio": "^0.22.0",
+    "express": "^4.15.2",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.9.4",
+    "path": "^0.12.7",
+    "morgan": "^1.7.0",
+    "request": "^2.81.0"
+  }
+}
